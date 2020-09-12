@@ -1,0 +1,52 @@
+go run programing-language-go/chap1/fetchall/main.go https://Google.com  https://Youtube.com  https://Tmall.com  https://Baidu.com  https://Qq.com  https://Facebook.com  https://Sohu.com  https://Taobao.com  https://360.cn  https://Yahoo.com  https://Jd.com  https://Amazon.com  https://Wikipedia.org  https://Sina.com.cn  https://Weibo.com  https://Zoom.us  https://Live.com  https://Reddit.com  https://Netflix.com  https://Xinhuanet.com  https://Microsoft.com  https://Okezone.com  https://Vk.com  https://Office.com  https://Instagram.com  https://Alipay.com  https://Csdn.net  https://Myshopify.com  https://Yahoo.co.jp  https://Bongacams.com  https://Microsoftonline.com  https://Twitch.tv  https://Zhanqi.tv  https://Panda.tv  https://Google.com.hk  https://Bing.com  https://Naver.com  https://Ebay.com  https://China.com.cn  https://Aliexpress.com  https://Amazon.in  https://Tianya.cn  https://Tribunnews.com  https://Google.co.in  https://Amazon.co.jp  https://Adobe.com  https://Livejasmin.com  https://Chaturbate.com  https://Stackoverflow.com  https://Twitter.com
+Get "https://China.com.cn": dial tcp 202.130.245.42:443: connect: connection refused
+Get "https://Tribunnews.com": x509: certificate is valid for *.maintenis.com, maintenis.com, not Tribunnews.com
+0.73s        63 https://Yahoo.co.jp
+0.94s         0 https://Instagram.com
+1.00s      9021 https://Myshopify.com
+1.11s    350352 https://Twitter.com
+1.16s    116128 https://Stackoverflow.com
+1.18s     13196 https://Google.com
+1.18s    235328 https://Chaturbate.com
+Get "https://www.aliexpress.com/": dial tcp: lookup www.aliexpress.com: no such host
+1.21s     13806 https://Google.co.in
+1.21s     13572 https://Google.com.hk
+1.23s    105211 https://Office.com
+1.31s     36441 https://Live.com
+1.36s    429436 https://Youtube.com
+1.36s    157460 https://Panda.tv
+1.37s     98050 https://Twitch.tv
+1.43s     82382 https://Zoom.us
+1.45s     63642 https://Bing.com
+1.49s     68977 https://Wikipedia.org
+1.54s    171569 https://Facebook.com
+1.66s    209236 https://Sohu.com
+1.67s    188815 https://Microsoft.com
+1.74s    215469 https://Naver.com
+1.81s    523761 https://Sina.com.cn
+1.94s    407313 https://Amazon.co.jp
+2.08s    135845 https://Adobe.com
+2.17s    251517 https://Ebay.com
+2.18s    652109 https://Yahoo.com
+2.23s     60268 https://Csdn.net
+2.42s      7311 https://Tianya.cn
+2.45s    103881 https://Qq.com
+2.53s    225240 https://Tmall.com
+2.68s    524082 https://Livejasmin.com
+2.73s     17676 https://Vk.com
+2.83s    298139 https://Reddit.com
+2.89s     96921 https://Weibo.com
+2.90s    369236 https://Amazon.com
+2.97s    424772 https://Netflix.com
+3.01s       173 https://Baidu.com
+3.09s     20489 https://Jd.com
+3.95s    491247 https://Bongacams.com
+4.01s     82768 https://360.cn
+4.81s    474024 https://Amazon.in
+4.96s    157260 https://Zhanqi.tv
+5.81s    391230 https://Taobao.com
+Get "https://www.okezone.com/": net/http: TLS handshake timeout
+Get "https://Alipay.com": dial tcp 110.75.139.5:443: i/o timeout
+Get "https://Microsoftonline.com": dial tcp 52.178.167.109:443: i/o timeout
+Get "https://Xinhuanet.com": dial tcp 202.108.119.194:443: i/o timeout
+30.01s elapsed
