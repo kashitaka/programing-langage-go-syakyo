@@ -12,9 +12,9 @@ type IntSet struct {
 func main() {
 	var x IntSet
 	x.Add(1)
-	x.Add(144)
+	x.Add(4)
 	x.Add(9)
-	fmt.Println(x.Has(9))
+	fmt.Println(&x)
 
 	var y IntSet
 	y.Add(6)
