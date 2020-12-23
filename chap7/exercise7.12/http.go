@@ -61,7 +61,7 @@ func (db database) update(w http.ResponseWriter, req *http.Request) {
 	price, err := strconv.Atoi(req.URL.Query().Get("price"))
 	if err != nil {
 		w.WriteHeader(http.StatusBadRequest)
-		fmt.Fprintf(w, "invalid price: %q\n", item)
+		fmt.Fprintf(w, "invalid price: %q\n", err)
 		return
 	}
 	db[item] = dollars(price)
