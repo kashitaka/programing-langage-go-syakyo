@@ -23,8 +23,10 @@ func printer(in <-chan int) {
 }
 
 func main() {
-	naturals := make(chan int) // 双方向チャネル型として宣言されるが
-	squares := make(chan int)  //
+	// 双方向チャネル型として宣言されるが
+	// chan<- int や <-chan int の引数に渡せる。
+	naturals := make(chan int)
+	squares := make(chan int)
 
 	go counter(naturals)
 	go squarer(naturals, squares)
