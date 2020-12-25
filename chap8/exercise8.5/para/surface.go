@@ -23,7 +23,7 @@ func main() {
 	start := time.Now()
 	var wg sync.WaitGroup
 	ch := make(chan string)
-	for i := 0; i < 100; i++ {
+	for i := 0; i < 500; i++ {
 		wg.Add(1)
 		go draw(ch)
 	}

@@ -20,7 +20,7 @@ var sin30, cos30 = math.Sin(angle), math.Cos(angle)
 
 func main() {
 	start := time.Now()
-	for i := 0; i < 100; i++ {
+	for i := 0; i < 1000; i++ {
 		draw()
 	}
 	fmt.Println("done")
