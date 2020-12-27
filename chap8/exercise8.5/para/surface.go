@@ -20,10 +20,17 @@ const (
 var sin30, cos30 = math.Sin(angle), math.Cos(angle)
 
 func main() {
+	for i := 0; i < 500; {
+		i += 100
+		bench(i)
+	}
+}
+
+func bench(c int) {
 	start := time.Now()
 	var wg sync.WaitGroup
 	ch := make(chan string)
-	for i := 0; i < 500; i++ {
+	for i := 0; i <= c; i++ {
 		wg.Add(1)
 		go draw(ch)
 	}
@@ -39,9 +46,8 @@ func main() {
 	// 待ち受け
 	wg.Wait()
 	close(ch)
-	fmt.Println("done")
 	end := time.Now()
-	fmt.Printf("%f秒\n", (end.Sub(start)).Seconds())
+	fmt.Printf("n=%d : %f秒\n", c, (end.Sub(start)).Seconds())
 }
 
 func draw(ch chan<- string) {
